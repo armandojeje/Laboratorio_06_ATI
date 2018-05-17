@@ -4,19 +4,19 @@ table {
 }
 
 th, td {
-    text-align: left;
+    text-align: center;
     padding: 8px;
 }
 
-tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(even){background-color: #503e3e}
 
 th {
-    background-color: #4CAF50;
+    background-color: rgb(175, 76, 109);
     color: white;
 }
 
 .btn {
-    background-color: #4CAF50;
+    background-color: rgb(28, 11, 126);
     border: none;
     color: white;
     padding: 12px 30px;
