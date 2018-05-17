@@ -4,20 +4,8 @@ $(document).ready(function() {
 
 $(document).ajaxError(function(e, jqXHR, settings, exception) {
 	switch (jqXHR.status) {
-		case 0:
-			alert("404 Page Not Found");
-	        break;
 	    case 200:
 	        alert("200 OK!");
-	        break;
-	    case 403:
-	    	alert("403 Forbidden");
-	    	break;
-	    case 404:
-	        alert("404 Page Not Found");
-	        break;
-	    case 500:
-	    	alert("500 Internal Server Error");
 	        break;
 	    default:
 	            alert("Un error ha ocurrido: " + jqXHR.status);
